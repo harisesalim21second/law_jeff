@@ -1,0 +1,38 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Light gray background color */
+  font-family: Arial, sans-serif; /* Specify the font-family */
+}
+
+/* Style for the login form within the app-container */
+.app-container .login-form {
+  background-color: #fff; /* White background color for the login form */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+/* Style for input fields and buttons */
+.app-container input[type="text"],
+.app-container input[type="password"],
+.app-container button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.app-container button {
+  background-color: #007bff; /* Blue button color */
+  color: #fff; /* White text color */
+  cursor: pointer;
+}
+
+/* Style for button hover effect */
+.app-container button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
